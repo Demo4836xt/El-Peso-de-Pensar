@@ -33,6 +33,10 @@ body {
     letter-spacing: 0.3px;
 }
 
+::selection {
+    background: #ffffff22;
+}
+
 /* PORTADA */
 
 .hero {
@@ -148,10 +152,7 @@ section h2 {
     font-style: italic;
     color: var(--muted);
     white-space: pre-line;
-}
-
-body {
-    user-select: none;
+    
 }
 
 footer {
@@ -164,8 +165,6 @@ footer {
 </style>
 </head>
 
-<script>
-document.addEventListener('contextmenu', event => event.preventDefault());
 </script>
 
 <body>
@@ -173,7 +172,12 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 <!-- PORTADA -->
 <div class="hero">
     <h1>El Peso de Pensar</h1>
-    <p>Escribir para sanar lo que antes dolia cargar en soledad.</p>
+
+    <p style="margin-top:30px; font-style:italic;">
+    No necesitas leer todo.
+    Solo empieza donde algo te duela.
+    </p>
+    
     <p>por Demo4836xt</p>
 </div>
 
@@ -187,6 +191,11 @@ document.addEventListener('contextmenu', event => event.preventDefault());
     <a href="#nostalgia">Nostalgia y memoria emocional</a>
     <a href="#nota">Nota</a>
 </div>
+
+<p style="text-align:center; color:#777; margin:120px 0; font-style:italic;">
+Este libro no fue escrito en orden.
+Tampoco necesitas leerlo así.
+</p>
 
 <div class="container">
 
@@ -637,7 +646,13 @@ reflejos que encajan con nuestras heridas.
 Y aun así…
 decidimos quedarnos.
 </div>
+    
+<p style="text-align:center; color:#555; margin-top:100px;">
+— Demo4836xt
+</p>
+    
 </section>
+    
 
 <!-- IDENTIDAD Y MÁSCARA -->
 <section id="identidad-mascara">
@@ -1225,6 +1240,10 @@ sino elegir cuándo usarla
 sin olvidar quién respira debajo.
 </div>
 
+<p style="text-align:center; color:#555; margin-top:100px;">
+— Demo4836xt
+</p>
+
 </section>
 
 <!-- PÉRDIDA -->
@@ -1420,6 +1439,11 @@ Cargamos transformaciones.
 Y en ese sentido,
 nadie se va del todo.
 </div>
+
+<p style="text-align:center; color:#555; margin-top:100px;">
+— Demo4836xt
+</p>
+    
 </section>
 
 <!-- ESPERANZA -->
@@ -1705,6 +1729,11 @@ Ser humano no es no romperse.
 Es romperse
 y aun así no volverse piedra.
 </div>
+
+<p style="text-align:center; color:#555; margin-top:100px;">
+— Demo4836xt
+</p>
+    
 </section>
 
 <!-- NOSTALGIA -->
@@ -1993,6 +2022,11 @@ Y eso,
 aunque duela,
 también es una forma de gratitud.
 </div>
+
+<p style="text-align:center; color:#555; margin-top:100px;">
+— Demo4836xt
+</p>
+    
 </section>
 
 <!-- NOTA FINAL -->
@@ -2020,8 +2054,17 @@ es convertirlo en palabras.
 </div>
 
 <footer>
-© 2026 Demo4836xt Studios. Todos los derechos reservados.  
-Prohibida la reproducción total o parcial sin autorización del autor.
+<p>
+© Demo4836xt Studios — El Peso de Pensar
+</p>
+
+<p style="margin-top:10px;">
+Publicado originalmente en demo4836xt.github.io
+</p>
+
+<p style="margin-top:20px; font-style:italic;">
+Si algún verso te encontró, puedes compartir el libro.
+</p>
 </footer>
 
 </body>
